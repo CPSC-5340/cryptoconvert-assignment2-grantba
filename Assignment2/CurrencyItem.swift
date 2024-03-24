@@ -63,5 +63,5 @@ struct BackCurrencyItem: View {
 }
 
 #Preview {
-    CurrencyItem(card: ConvertModel(cardContent: CurrencyItemModel(currencyName: "", currencyCode: "", countryFlag: "", multiplier: 1)))
+    Converter()
 }

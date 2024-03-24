@@ -1,5 +1,5 @@
 //
-// ContentView.swift : Assignment2
+// Converter.swift : Assignment2
 //
 // Copyright © 2023 Auburn University.
 // All Rights Reserved.
@@ -13,6 +13,8 @@ struct Converter: View {
     
     var body: some View {
         ScrollView {
+            Text("1 USD Exchange Rate")
+                .padding(20)
             LazyVGrid(columns: [GridItem(.adaptive(minimum: 150))]) {
                 ForEach(viewModel.listOfCards) {card
                     in CurrencyItem(card: card)
