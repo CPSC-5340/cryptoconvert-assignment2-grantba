@@ -63,5 +63,5 @@ struct BackCurrencyItem: View {
 }
 
 #Preview {
-    Converter()
+    CurrencyConverter()
 }

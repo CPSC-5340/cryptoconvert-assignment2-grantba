@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Converter: View {
+struct CurrencyConverter: View {
     
     @ObservedObject var viewModel = CurrencyConverterViewModel()
     
@@ -32,6 +32,6 @@ struct Converter: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        Converter()
+        CurrencyConverter()
     }
 }

@@ -12,10 +12,10 @@ struct ContentView: View {
         NavigationView {
             VStack {
                 List {
-                    NavigationLink(destination: Converter()) {
+                    NavigationLink(destination: CurrencyConverter()) {
                         Text("World Currency Exchange")
                     }
-                    NavigationLink(destination: Converter()) {
+                    NavigationLink(destination: BitcoinConverter()) {
                         Text("Crypto Exchange")
                     }
                 }
