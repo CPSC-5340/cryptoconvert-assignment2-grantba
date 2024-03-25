@@ -7,6 +7,14 @@
 
 import Foundation
 
-struct BitcoinModel {
-
+struct BitcoinModel<SomeType> : Identifiable {
+    let id = UUID()
+    var itemContent : SomeType
 }
+
+struct BitcoinItemModel {
+    let cryptoCurrencyName : String
+    var exchangeRate : Double
+    var calculatedAmount : Double
+}
+

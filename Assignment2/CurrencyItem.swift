@@ -34,11 +34,12 @@ struct FrontCurrencyItem: View {
             HStack {
                 Spacer()
                 Text(card.currencyCode)
-            }
+                .foregroundStyle(.white)            }
         }
+        .font(.largeTitle)
         .frame(width: 130, height: 130)
         .padding()
-        .background(.blue)
+        .background(Color(red: 0.75, green: 0.1, blue: 0))
     }
 }
 
@@ -56,9 +57,11 @@ struct BackCurrencyItem: View {
                 Text(String(card.multiplier))
             }
         }
+        .font(.title2)
+        .foregroundStyle(.white)
         .frame(width: 130, height: 130)
         .padding()
-        .background(.blue)
+        .background(Color(red: 0.75, green: 0.1, blue: 0))
     }
 }
 

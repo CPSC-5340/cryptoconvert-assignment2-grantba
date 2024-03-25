@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct CurrencyConverter: View {
-    
     @ObservedObject var viewModel = CurrencyConverterViewModel()
     
     var body: some View {

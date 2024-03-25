@@ -14,6 +14,7 @@
 		99B2EC782BAFA6B00083A54B /* BitcoinConverterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B2EC772BAFA6AF0083A54B /* BitcoinConverterViewModel.swift */; };
 		99B2EC7A2BAFA7A90083A54B /* BitcoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B2EC792BAFA7A90083A54B /* BitcoinModel.swift */; };
 		99B2EC7C2BAFA85D0083A54B /* BitcoinConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B2EC7B2BAFA85D0083A54B /* BitcoinConverter.swift */; };
+		99B2EC7E2BAFC0D70083A54B /* BitcoinItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B2EC7D2BAFC0D70083A54B /* BitcoinItem.swift */; };
 		AC8A63A629B59BEC00C32694 /* Assignment2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8A63A529B59BEC00C32694 /* Assignment2App.swift */; };
 		AC8A63A829B59BEC00C32694 /* CurrencyConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8A63A729B59BEC00C32694 /* CurrencyConverter.swift */; };
 		AC8A63AA29B59BED00C32694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8A63A929B59BED00C32694 /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 		99B2EC772BAFA6AF0083A54B /* BitcoinConverterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinConverterViewModel.swift; sourceTree = "<group>"; };
 		99B2EC792BAFA7A90083A54B /* BitcoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinModel.swift; sourceTree = "<group>"; };
 		99B2EC7B2BAFA85D0083A54B /* BitcoinConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinConverter.swift; sourceTree = "<group>"; };
+		99B2EC7D2BAFC0D70083A54B /* BitcoinItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinItem.swift; sourceTree = "<group>"; };
 		AC8A63A229B59BEC00C32694 /* Assignment2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8A63A529B59BEC00C32694 /* Assignment2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment2App.swift; sourceTree = "<group>"; };
 		AC8A63A729B59BEC00C32694 /* CurrencyConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverter.swift; sourceTree = "<group>"; };
@@ -67,15 +69,16 @@
 			children = (
 				AC8A63A529B59BEC00C32694 /* Assignment2App.swift */,
 				99B2EC752BAF97FC0083A54B /* ContentView.swift */,
+				99B2EC7D2BAFC0D70083A54B /* BitcoinItem.swift */,
+				99B2EC7B2BAFA85D0083A54B /* BitcoinConverter.swift */,
+				99B2EC792BAFA7A90083A54B /* BitcoinModel.swift */,
+				99B2EC772BAFA6AF0083A54B /* BitcoinConverterViewModel.swift */,
 				AC8A63A729B59BEC00C32694 /* CurrencyConverter.swift */,
 				99B2EC712BAE7C540083A54B /* ConvertModel.swift */,
 				99B2EC732BAE7E0D0083A54B /* CurrencyConverterViewModel.swift */,
 				99B2EC6F2BAE70090083A54B /* CurrencyItem.swift */,
 				AC8A63A929B59BED00C32694 /* Assets.xcassets */,
 				AC8A63AB29B59BED00C32694 /* Preview Content */,
-				99B2EC772BAFA6AF0083A54B /* BitcoinConverterViewModel.swift */,
-				99B2EC792BAFA7A90083A54B /* BitcoinModel.swift */,
-				99B2EC7B2BAFA85D0083A54B /* BitcoinConverter.swift */,
 			);
 			path = Assignment2;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				99B2EC782BAFA6B00083A54B /* BitcoinConverterViewModel.swift in Sources */,
 				AC8A63A829B59BEC00C32694 /* CurrencyConverter.swift in Sources */,
 				99B2EC742BAE7E0D0083A54B /* CurrencyConverterViewModel.swift in Sources */,
+				99B2EC7E2BAFC0D70083A54B /* BitcoinItem.swift in Sources */,
 				99B2EC762BAF97FC0083A54B /* ContentView.swift in Sources */,
 				99B2EC7C2BAFA85D0083A54B /* BitcoinConverter.swift in Sources */,
 				AC8A63A629B59BEC00C32694 /* Assignment2App.swift in Sources */,
